@@ -11,7 +11,7 @@ color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|
 color magenta "\$[a-zA-Z_0-9$]*"
 
 ## operators
-color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=)"
+color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|'|\"|\(|\))"
 
 ## comments
 color brightcyan "#[^{].*$" "#$"
