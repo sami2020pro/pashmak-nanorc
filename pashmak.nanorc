@@ -8,7 +8,7 @@ comment "#"
 color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|if|else|endif|elif|while|endwhile|try|endtry|goto|gotoif)\>"
 
 ## variables
-color cyan "\$[a-zA-Z_0-9$]*"
+color magenta "\$[a-zA-Z_0-9$]*"
 
 ## operators
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=)"
