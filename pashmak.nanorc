@@ -13,5 +13,7 @@ color magenta "\$[a-zA-Z_0-9$]*"
 ## operators
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|'|\"|\(|\))"
 
+## strings
+
 ## comments
 color brightcyan "#[^{].*$" "#$"
