@@ -1,0 +1,5 @@
+## Pashmak syntax highlighting for GNU nano editor
+## Author: Sami Ghasemi - sami2020pro
+
+syntax "Pashmak" "\.pashm$"
+comment "#"
