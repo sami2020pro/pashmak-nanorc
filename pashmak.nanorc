@@ -14,3 +14,4 @@ color cyan "\$[a-zA-Z_0-9$]*"
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=)"
 
 ## comments
+color brightcyan "#[^{].*$" "#$"
