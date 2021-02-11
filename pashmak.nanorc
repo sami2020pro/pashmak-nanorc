@@ -9,3 +9,5 @@ color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|
 
 ## variables
 color cyan "\$[a-zA-Z_0-9$]*"
+
+## operators
