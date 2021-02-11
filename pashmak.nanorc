@@ -4,4 +4,7 @@
 syntax "Pashmak" "\.pashm$"
 comment "#"
 
-color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|if|else|endif|elif|while|endwhile|)\>"
+## keywords
+color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|if|else|endif|elif|while|endwhile|try|endtry|goto|gotoif)\>"
+
+## variables
