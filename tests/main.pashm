@@ -51,3 +51,11 @@ println clone($something)
 section something
 goto something
 mem true; gotoif something
+
+assert true
+
+break
+continue
+
+if and or not in
+endif

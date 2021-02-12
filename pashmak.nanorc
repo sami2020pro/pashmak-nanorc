@@ -5,10 +5,12 @@ syntax "Pashmak" "\.pashm$"
 comment "#"
 
 ## keywords
-color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class|endclass|section|if|else|endif|elif|while|endwhile|try|endtry)\>"
+color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class|endclass)\>"
+color brightblue "\<(section|if|else|endif|elif|while|endwhile|try|endtry)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
+color brightred "\<(pass|get|set|gget|gset|break|continue|and|or|not|in|assert)\>"
 
 ## boolean and null
 color brightgreen "\<(true|True||false|False|null|None)\>"
