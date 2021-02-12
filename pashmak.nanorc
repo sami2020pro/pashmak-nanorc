@@ -26,6 +26,8 @@ color magenta "\$[a-zA-Z_0-9$]*"
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|\.|'|\"|\(|\))"
 
 ## strings
+color yellow "'([^'\]|\\.)+'"
+color yellow ""([^"\]|\\.)+""
 
 ## comments
 color brightcyan "#[^{].*$" "#$"
