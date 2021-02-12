@@ -1,2 +1,41 @@
+# test comment
+
 $hello = "Hello, World!\n"
-print($hello)
+print($hello) # hi there
+
+func hello(string $name)
+	return 'hello ' + $name
+endfunc
+
+println int, string, str, integer, bool, list, array, float, tuple
+
+class Person
+	func string::get_name()
+		return $this->name
+	endfunc
+endclass
+
+import 'something'
+import_once 'something'
+import_run 'something'
+import_run_once 'something'
+raise Error('Foo', 'bar')
+
+namespace foo
+	ns bar
+	endns
+endnamespace
+
+print('something')
+println('something')
+printl('something')
+perror('something')
+printf('something')
+
+define()
+is_defined()
+redefine()
+all_defines()
+undefine()
+
+println clone($something)

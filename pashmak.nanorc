@@ -5,7 +5,16 @@ syntax "Pashmak" "\.pashm$"
 comment "#"
 
 ## keywords
-color brightblue "\<(namespace|func|endfunc|endns|import|class|endclass|section|if|else|endif|elif|while|endwhile|try|endtry|goto|gotoif)\>"
+color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class|endclass|section|if|else|endif|elif|while|endwhile|try|endtry)\>"
+
+## builtin commands
+color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise)\>"
+
+## datatypes
+color green "\<(string|str|int|integer|list|array|bool|float|tuple)\>"
+
+## builtin functions
+color brightyellow "\<(print|println|printl|perror|printf|clone|define|all_defines|undefine|is_defined|redefine)\>"
 
 ## variables
 color magenta "\$[a-zA-Z_0-9$]*"
