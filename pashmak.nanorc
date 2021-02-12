@@ -27,10 +27,10 @@ color brightyellow "\<(out_start|out_end|out_clean|out_get|out_get_clean|func.li
 color brightyellow "\<(func.delete|class.list|class.exists|class.delete)\>"
 
 ## variables
-color magenta "\$[a-zA-Z_0-9$]*"
+color magenta "\$[a-zA-Z_0-9$\.]*"
 
 ## operators
-color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|\.|'|\"|\(|\))"
+color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|'|\"|\(|\))"
 
 ## strings
 color yellow "'([^'\]|\\.)+'"
