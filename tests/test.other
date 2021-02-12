@@ -1,0 +1,6 @@
+#!/usr/bin/env pashmak
+
+func foo()
+endfunc
+
+println 'hello world'
