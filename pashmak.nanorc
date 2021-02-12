@@ -35,6 +35,8 @@ color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|\.|'|\"|\(|\))"
 ## strings
 color yellow "'([^'\]|\\.)+'"
 color yellow "\"([^"\]|\\.)+""
+color yellow start="'''([^'),]|$)" end="(^|[^(\])'''"
+color yellow start="\"\"\"([^"),]|$)" end="(^|[^(\])\"\"\""
 
 ## comments
 color brightcyan "#[^{].*$" "#$"

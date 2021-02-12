@@ -100,3 +100,5 @@ exit()
 typeof($var)
 __namespace__()
 match()
+
+println """hello"""
