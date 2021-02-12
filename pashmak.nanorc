@@ -2,6 +2,7 @@
 ## Author: Sami Ghasemi - sami2020pro
 
 syntax "Pashmak" "\.pashm$"
+header "^#!.*pashmak[-0-9._]*"
 comment "#"
 
 ## keywords
