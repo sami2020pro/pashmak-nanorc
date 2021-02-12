@@ -102,3 +102,5 @@ __namespace__()
 match()
 
 println """hello"""
+
+$name.other = 'hello'
