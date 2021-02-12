@@ -45,3 +45,7 @@ all_defines()
 undefine()
 
 println clone($something)
+
+section something
+goto something
+mem true; gotoif something
