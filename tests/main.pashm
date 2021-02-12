@@ -15,6 +15,12 @@ class Person
 	endfunc
 endclass
 
+if True, null, false, False, true, None
+	# something
+else
+elif
+endif
+
 import 'something'
 import_once 'something'
 import_run 'something'
