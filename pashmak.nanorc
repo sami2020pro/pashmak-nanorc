@@ -31,3 +31,4 @@ color yellow ""([^"\]|\\.)+""
 
 ## comments
 color brightcyan "#[^{].*$" "#$"
+color brightwhite,yellow "\<(FIXME|TODO)\>"
