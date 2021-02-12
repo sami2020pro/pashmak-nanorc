@@ -11,7 +11,7 @@ color brightblue "\<(section|if|else|endif|elif|while|endwhile|try|endtry)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
-color brightred "\<(pass|break|continue|and|or|not|in|assert)\>"
+color brightred "\<(pass|break|continue|and|or|not|in|assert|doc|__docstring__)\>"
 
 ## boolean and null
 color brightgreen "\<(true|True||false|False|null|None)\>"

@@ -9,11 +9,14 @@ endfunc
 
 println int, string, str, integer, bool, list, array, float, tuple
 
+@doc "hello world"
 class Person
 	func string::get_name()
 		return $this->name
 	endfunc
 endclass
+
+println Person->__docstring__
 
 if True, null, false, False, true, None
 	# something
