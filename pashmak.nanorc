@@ -22,6 +22,9 @@ color green "\<(string|str|int|integer|list|array|bool|float|tuple)\>"
 ## builtin functions
 color brightyellow "\<(print|println|printl|perror|printf|clone|define|all_defines|undefine|is_defined|redefine)\>"
 color brightyellow "\<(get|gget|set|gset|python|eval|py_load_file|py_load_module|register_shutdown)\>"
+color brightyellow "\<(rmem|typeof|system|__namespace__|match|isset|read|exit|die|var_dump)\>"
+color brightyellow "\<(out_start|out_end|out_clean|out_get|out_get_clean|func.list|func.exists)\>"
+color brightyellow "\<(func.delete|class.list|class.exists|class.delete)\>"
 
 ## variables
 color magenta "\$[a-zA-Z_0-9$]*"

@@ -74,3 +74,26 @@ py_load_file()
 py_load_module()
 
 println 'hello \' and \" bye' + 'other str'
+
+out_start()
+out_end()
+out_clean()
+out_get_clean()
+out_get()
+
+func.delete()
+func.exists()
+func.list()
+class.delete()
+class.exists()
+class.list()
+
+var_dump()
+die()
+system('ls')
+isset('foo')
+read()
+exit()
+typeof($var)
+__namespace__()
+match()
