@@ -48,6 +48,11 @@ undefine()
 
 println clone($something)
 
+get()
+set()
+gget()
+gset()
+
 section something
 goto something
 mem true; gotoif something
@@ -57,5 +62,9 @@ assert true
 break
 continue
 
+pass
+
 if and or not in
 endif
+
+

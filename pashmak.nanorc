@@ -10,7 +10,7 @@ color brightblue "\<(section|if|else|endif|elif|while|endwhile|try|endtry)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
-color brightred "\<(pass|get|set|gget|gset|break|continue|and|or|not|in|assert)\>"
+color brightred "\<(pass|break|continue|and|or|not|in|assert)\>"
 
 ## boolean and null
 color brightgreen "\<(true|True||false|False|null|None)\>"
@@ -20,6 +20,7 @@ color green "\<(string|str|int|integer|list|array|bool|float|tuple)\>"
 
 ## builtin functions
 color brightyellow "\<(print|println|printl|perror|printf|clone|define|all_defines|undefine|is_defined|redefine)\>"
+color brightyellow "\<(get|gget|set|gset)\>"
 
 ## variables
 color magenta "\$[a-zA-Z_0-9$]*"
