@@ -72,3 +72,5 @@ python('foo')
 eval('foo')
 py_load_file()
 py_load_module()
+
+println 'hello \' and \" bye' + 'other str'
