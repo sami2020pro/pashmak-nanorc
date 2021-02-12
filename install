@@ -1,1 +1,2 @@
+mkdir -p /usr/share/nano/extra
 cp pashmak.nanorc /usr/share/nano/extra
