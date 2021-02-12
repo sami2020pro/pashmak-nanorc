@@ -67,4 +67,8 @@ pass
 if and or not in
 endif
 
-
+register_shutdown()
+python('foo')
+eval('foo')
+py_load_file()
+py_load_module()
