@@ -6,18 +6,18 @@ header "^#!.*pashmak[-0-9._]*"
 comment "#"
 
 ## keywords
-color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class|endclass)\>"
-color brightblue "\<(section|if|else|endif|elif|while|endwhile|try|endtry)\>"
+color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class)\>"
+color brightblue "\<(endclass|if|else|endif|elif|while|endwhile|try|endtry)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
-color brightred "\<(pass|break|continue|and|or|not|in|assert|doc|__docstring__)\>"
+color brightred "\<(pass|break|continue|and|or|not|in|is|assert|__docstring__|use|section)\>"
 
 ## boolean and null
 color brightgreen "\<(true|True||false|False|null|None)\>"
 
 ## datatypes
-color green "\<(string|str|int|integer|list|array|bool|float|tuple)\>"
+color green "\<(string|str|int|integer|list|array|bool|float|tuple|dict)\>"
 
 ## builtin functions
 color brightyellow "\<(print|println|printl|perror|printf|clone|define|all_defines|undefine|is_defined|redefine)\>"
@@ -29,15 +29,21 @@ color brightyellow "\<(func.delete|class.list|class.exists|class.delete)\>"
 ## variables
 color magenta "\$[a-zA-Z_0-9$\.]*"
 
+## modules
+color blue "\@[a-zA-Z_0-9$\.]*"
+
+## command @doc
+color brightred "\@doc*"
+
 ## operators
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|'|\"|\(|\))"
+
+## comments
+color brightcyan "#[^{].*$" "#$"
+color brightwhite,yellow "\<(FIXME|TODO)\>"
 
 ## strings
 color yellow "'([^'\]|\\.)+'"
 color yellow "\"([^"\]|\\.)+""
 color yellow start="'''([^'),]|$)" end="(^|[^(\])'''"
 color yellow start="\"\"\"([^"),]|$)" end="(^|[^(\])\"\"\""
-
-## comments
-color brightcyan "#[^{].*$" "#$"
-color brightwhite,yellow "\<(FIXME|TODO)\>"

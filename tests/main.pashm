@@ -7,7 +7,10 @@ func hello(string $name)
 	return 'hello ' + $name
 endfunc
 
-println int, string, str, integer, bool, list, array, float, tuple
+if null is None
+endif
+
+println int, string, str, integer, bool, list, array, float, tuple, dict
 
 @doc "hello world"
 class Person
@@ -26,6 +29,8 @@ endif
 
 # TODO : FIXME
 
+import @foo
+import @foo.bar
 import 'something'
 import_once 'something'
 import_run 'something'
@@ -36,6 +41,8 @@ namespace foo
 	ns bar
 	endns
 endnamespace
+
+use foo
 
 print('something')
 println('something')
@@ -104,3 +111,5 @@ match()
 println """hello"""
 
 $name.other = 'hello'
+
+println 'the # comment'
