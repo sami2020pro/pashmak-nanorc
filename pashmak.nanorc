@@ -17,7 +17,7 @@ color brightred "\<(pass|break|continue|and|or|not|in|assert|__docstring__)\>"
 color brightgreen "\<(true|True||false|False|null|None)\>"
 
 ## datatypes
-color green "\<(string|str|int|integer|list|array|bool|float|tuple)\>"
+color green "\<(string|str|int|integer|list|array|bool|float|tuple|dict)\>"
 
 ## builtin functions
 color brightyellow "\<(print|println|printl|perror|printf|clone|define|all_defines|undefine|is_defined|redefine)\>"

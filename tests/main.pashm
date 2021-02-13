@@ -7,7 +7,7 @@ func hello(string $name)
 	return 'hello ' + $name
 endfunc
 
-println int, string, str, integer, bool, list, array, float, tuple
+println int, string, str, integer, bool, list, array, float, tuple, dict
 
 @doc "hello world"
 class Person
