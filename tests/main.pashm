@@ -42,6 +42,8 @@ namespace foo
 	endns
 endnamespace
 
+use foo
+
 print('something')
 println('something')
 printl('something')
