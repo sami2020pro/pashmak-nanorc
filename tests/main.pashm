@@ -26,6 +26,8 @@ endif
 
 # TODO : FIXME
 
+import @foo
+import @foo.bar
 import 'something'
 import_once 'something'
 import_run 'something'
