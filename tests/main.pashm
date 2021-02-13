@@ -7,6 +7,9 @@ func hello(string $name)
 	return 'hello ' + $name
 endfunc
 
+if null is None
+endif
+
 println int, string, str, integer, bool, list, array, float, tuple, dict
 
 @doc "hello world"
