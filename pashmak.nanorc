@@ -38,12 +38,12 @@ color brightred "\@doc*"
 ## operators
 color brightwhite "(\*|/|%|\+|-|>|<|>>|<<|==|=|'|\"|\(|\))"
 
+## comments
+color brightcyan "#[^{].*$" "#$"
+color brightwhite,yellow "\<(FIXME|TODO)\>"
+
 ## strings
 color yellow "'([^'\]|\\.)+'"
 color yellow "\"([^"\]|\\.)+""
 color yellow start="'''([^'),]|$)" end="(^|[^(\])'''"
 color yellow start="\"\"\"([^"),]|$)" end="(^|[^(\])\"\"\""
-
-## comments
-color brightcyan "#[^{].*$" "#$"
-color brightwhite,yellow "\<(FIXME|TODO)\>"

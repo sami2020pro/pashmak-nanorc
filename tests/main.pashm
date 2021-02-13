@@ -111,3 +111,5 @@ match()
 println """hello"""
 
 $name.other = 'hello'
+
+println 'the # comment'
