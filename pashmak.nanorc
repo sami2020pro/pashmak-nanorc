@@ -6,12 +6,12 @@ header "^#!.*pashmak[-0-9._]*"
 comment "#"
 
 ## keywords
-color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class|endclass)\>"
-color brightblue "\<(section|if|else|endif|elif|while|endwhile|try|endtry)\>"
+color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class)\>"
+color brightblue "\<(endclass|if|else|endif|elif|while|endwhile|try|endtry)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
-color brightred "\<(pass|break|continue|and|or|not|in|is|assert|__docstring__|use)\>"
+color brightred "\<(pass|break|continue|and|or|not|in|is|assert|__docstring__|use|section)\>"
 
 ## boolean and null
 color brightgreen "\<(true|True||false|False|null|None)\>"
