@@ -7,7 +7,7 @@ comment "#"
 
 ## keywords
 color brightblue "\<(ns|namespace|endnamespace|endns|func|endfunc|class)\>"
-color brightblue "\<(endclass|if|else|endif|elif|while|endwhile|try|endtry)\>"
+color brightblue "\<(endclass|if|else|endif|elif|while|endwhile|try|endtry|end)\>"
 
 ## builtin commands
 color brightred "\<(return|goto|gotoif|import|import_once|import_run|import_run_once|raise|mem)\>"
